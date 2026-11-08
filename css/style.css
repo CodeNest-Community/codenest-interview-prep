@@ -4,7 +4,8 @@
   --card-bg: #1e293b;
   --accent-color: #38bdf8;
   --border-color: #334155;
-  --badge-bg: #0284c7;
+  --badge-bg: #0369a1;
+  --hover-bg: #2563eb;
 }
 
 [data-theme="light"] {
@@ -14,6 +15,7 @@
   --accent-color: #0284c7;
   --border-color: #e2e8f0;
   --badge-bg: #e0f2fe;
+  --hover-bg: #bae6fd;
 }
 
 body {
@@ -37,6 +39,9 @@ body {
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--border-color);
   background-color: var(--card-bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
@@ -69,6 +74,11 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-github:hover {
+  opacity: 0.9;
 }
 
 .container {
@@ -80,6 +90,42 @@ body {
 .hero {
   text-align: center;
   margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  padding: 0.75rem 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.search-box i {
+  color: #94a3b8;
+  margin-right: 0.75rem;
+}
+
+.search-box input {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  width: 100%;
+  font-size: 1rem;
 }
 
 .filter-section {
@@ -97,9 +143,11 @@ body {
   padding: 0.5rem 1.25rem;
   border-radius: 20px;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
-.filter-btn.active {
+.filter-btn.active,
+.filter-btn:hover {
   background: var(--accent-color);
   color: #fff;
   border-color: var(--accent-color);
@@ -107,7 +155,7 @@ body {
 
 .questions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
@@ -119,14 +167,43 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition:
+    transform 0.2s,
+    border-color 0.2s;
+}
+
+.question-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-color);
 }
 
 .badge {
   align-self: flex-start;
   background-color: var(--badge-bg);
-  color: var(--accent-color);
+  color: #fff;
   padding: 0.25rem 0.75rem;
   border-radius: 12px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
+}
+
+.question-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.question-card p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid var(--border-color);
+  color: #94a3b8;
+  margin-top: 3rem;
 }

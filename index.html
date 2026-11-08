@@ -37,12 +37,20 @@
           O'zbek dasturchilari uchun savol-javoblar, kod masalalari va
           interaktiv tayyorgarlik portali.
         </p>
+
+        <!-- Qidiruv paneli -->
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Savol yoki texnologiyani qidiring (masalan: Flexbox, Git)..."
+          />
+        </div>
       </section>
 
       <section class="filter-section">
-        <button class="filter-btn active" data-category="all">
-          Hamma savollar
-        </button>
+        <button class="filter-btn active" data-category="all">Barchasi</button>
         <button class="filter-btn" data-category="html-css">HTML & CSS</button>
         <button class="filter-btn" data-category="javascript">
           JavaScript
@@ -51,9 +59,13 @@
       </section>
 
       <section id="questions-list" class="questions-grid">
-        <!-- JavaScript orqali yuklanadi -->
+        <!-- JavaScript orqali dinamik yuklanadi -->
       </section>
     </main>
+
+    <footer class="footer">
+      <p>Built with ❤️ by CodeNest Community & Team Challengers.</p>
+    </footer>
 
     <script src="js/questions.js"></script>
     <script src="js/main.js"></script>

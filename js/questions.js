@@ -20,4 +20,18 @@ const questionsData = [
     answer:
       "'git fetch' faqat masofaviy repodagi o'zgarishlarni yuklab oladi lekin local kodga qo'shmaydi. 'git pull' esa o'zgarishlarni yuklab olib, darhol joriy branch'ga merge qiladi.",
   },
+  {
+    id: 4,
+    category: "javascript",
+    question: "Closure (Yopilish) nima va u qanday ishlaydi?",
+    answer:
+      "Closure — bu ichki funksiya o'zining tashqi funksiyasining o'zgaruvchilariga tashqi funksiya tugagandan keyin ham kirish huquqini saqlab qolishi mexanizmi.",
+  },
+  {
+    id: 5,
+    category: "html-css",
+    question: "CSS Selectorlarida class (.) va ID (#) farqi nimada?",
+    answer:
+      "ID (#) sahifada faqat bitta noyob element uchun ishlatiladi va uning spetsifikatsiyasi (kuchi) yuqori. Class (.) esa bir nechta elementlarga takroran berilishi mumkin.",
+  },
 ];
