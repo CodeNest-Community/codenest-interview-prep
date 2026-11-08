@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="uz" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeNest — IT Intervyu Tayyorgarlik Platformasi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-code"></i>
+        <span>CodeNest <strong>Interview Prep</strong></span>
+      </div>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a
+          href="https://github.com/CodeNest-Community/codenest-interview-prep"
+          target="_blank"
+          class="btn-github"
+        >
+          <i class="fa-brands fa-github"></i> GitHub PR
+        </a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>IT Intervyulariga Ochiq Manba Bilan Tayyorlaning 🚀</h1>
+        <p>
+          O'zbek dasturchilari uchun savol-javoblar, kod masalalari va
+          interaktiv tayyorgarlik portali.
+        </p>
+      </section>
+
+      <section class="filter-section">
+        <button class="filter-btn active" data-category="all">
+          Hamma savollar
+        </button>
+        <button class="filter-btn" data-category="html-css">HTML & CSS</button>
+        <button class="filter-btn" data-category="javascript">
+          JavaScript
+        </button>
+        <button class="filter-btn" data-category="git">Git & Linux</button>
+      </section>
+
+      <section id="questions-list" class="questions-grid">
+        <!-- JavaScript orqali yuklanadi -->
+      </section>
+    </main>
+
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
