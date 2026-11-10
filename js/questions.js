@@ -34,4 +34,11 @@ const questionsData = [
     answer:
       "ID (#) sahifada faqat bitta noyob element uchun ishlatiladi va uning spetsifikatsiyasi (kuchi) yuqori. Class (.) esa bir nechta elementlarga takroran berilishi mumkin.",
   },
+  {
+    id: 6,
+    category: "git",
+    question: "Gitda 'git merge' va 'git rebase' o'rtasida qanday farq bor?",
+    answer:
+      "'git merge' ikki branchni birlashtiradi va yangi commit yaratadi, 'git rebase' esa bir branchni boshqa branchning ustiga qo'yadi va tarixni o'zgartiradi.",
+  },
 ];
