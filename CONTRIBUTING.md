@@ -1,27 +1,27 @@
-# 🚀 CodeNest Interview Prep — Hissa Qo'şiş Yo'riqnomasi (Contributing Guide)
+# 🚀 CodeNest Interview Prep — Hissa Qo'shish Yo'riqnomasi (Contributing Guide)
 
-CodeNest Open-Source hamjamiyatiga xuş kelibsiz!
-Uşbu loyiha dasturçilarning intervyu savollariga tayyorlanişi uchun möljallangan oçiq kodli platformadir.
+CodeNest Open-Source hamjamiyatiga xush kelibsiz!
+Ushbu loyiha dasturchilarning intervyu savollariga tayyorlanishi uchun mo'ljallangan ochiq kodli platformadir.
 
-Siz ham uşbu loyihani rivojlantirişda öz hissangizni qöşişingiz mumkin!
-
----
-
-## 🛠️ Qanday qilib hissa qöşiş mumkin?
-
-Loyihaga hissa qöşişning 3 ta asosiy yöli bor:
-
-1. **Yangi Intervyu Savoli Qöşiş:** HTML, CSS, JS, TS, React, Node.js yoki Python bo'yicha amaliy savol va javoblar.
-2. **Xatoliklarni Tuzatiş (Bug Fix):** Kod grammatikasi, dizayn yoki logikadagi kamchiliklarni to'g'rilaş.
-3. **Dizayn va UIni Yaxşilaş:** CSS/Tailwind orqali interfeysni yanada qulay qilish.
+Siz ham ushbu loyihani rivojlantirishda o'z hissangizni qo'shishingiz mumkin!
 
 ---
 
-## 📌 Birinçi Pull Request (PR) Yuboriş Bosqiçlari
+## 🛠️ Qanday qilib hissa qo'shish mumkin?
+
+Loyihaga hissa qo'shishning 3 ta asosiy yo'li bor:
+
+1. **Yangi Intervyu Savoli Qo'shish:** HTML, CSS, JS, TS, React, Node.js yoki Python bo'yicha amaliy savol va javoblar.
+2. **Xatoliklarni Tuzatish (Bug Fix):** Kod grammatikasi, dizayn yoki logikadagi kamchiliklarni to'g'rilash.
+3. **Dizayn va UIni Yaxshilash:** CSS/Tailwind orqali interfeysni yanada qulay qilish.
+
+---
+
+## 📌 Birinchi Pull Request (PR) Yuborish Bosqichlari
 
 ### 1-Qadam: Repozitoriyani Fork Qiling
 
-Loyihaning yuqori öng burçagidagi **Fork** tugmasini bosing va şaxsiy GitHub profilingizga nusxalab oling.
+Loyihaning yuqori o'ng burchagidagi **Fork** tugmasini bosing va shaxsiy GitHub profilingizga nusxalab oling.
 
 ### 2-Qadam: Nusxa Oling (Clone)
 
